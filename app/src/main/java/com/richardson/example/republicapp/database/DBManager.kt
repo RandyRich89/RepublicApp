@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import com.richardson.example.republicapp.request.items.DriverItem
 import com.richardson.example.republicapp.request.items.RouteItem
 
-@Database(entities = [DriverItem::class, RouteItem::class], version = 1)
-class DBManager: RoomDatabase() {
-    abstract fun userAndRoutesDAO(): UserAndRoutesDAO
-}
+//@Database(entities = [DriverItem::class, RouteItem::class], version = 1)
+//class DBManager: RoomDatabase() {
+//    abstract fun userAndRoutesDAO(): UserAndRoutesDAO
+//}
